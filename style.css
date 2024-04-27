@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.bg-container {
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1609175926687-3ed231a78e51?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aGlsbHMlMjB3YWxscGFwZXIlMjBiZyUyMHdoaXRlfGVufDB8fDB8fHww");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  height: 70px;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar h1 {
+  margin-left: 60px;
+  color: #375206;
+  font-weight: 800;
+  font-size: 35px;
+}
+.box {
+  border: 2px dashed gray;
+}
+.nav-details {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-details p {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  border: 2px dashed gray;
+  width: 50px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-details img {
+  width: 30px;
+  height: 20px;
+}
+.box3 {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav-details a {
+  color: #0b1c33;
+  font-size: 15px;
+  font-weight: 700;
+}
+.box3 span {
+  font-size: 13px;
+  color: gray;
+}
+.select2 {
+  width: 190px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(90, 41, 189);
+  color: wheat;
+}
+.select2 i {
+  margin-left: 40px;
+  color: white;
+  font-size: 20px;
+}
+.select3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border: 2px dashed rgb(164, 156, 156);
+}
+.booking-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-details a {
+  font-size: 15px;
+}
+.booking-details span {
+  font-size: 12px;
+  color: gray;
+}
+
+.slogan {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+.slogan h1 {
+  color: #050549;
+  font-size: 40px;
+  font-weight: 800;
+}
+.slogan p {
+  color: #050549;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.tour-catagory {
+  display: flex;
+  background-color: #eff0f1;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 60px;
+  border-radius: 20px;
+  gap: 30px;
+  position: relative;
+  top: 3%;
+  left: 26%;
+  z-index: 1;
+}
+.tour-catagory .tour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  background-color: lightblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.booking-container {
+  background-color: #050549;
+  height: 200px;
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+  flex-direction: column;
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  left: 18%;
+  top: -2%;
+}
+.details-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  gap: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.booking-container .booking1 {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.booking1 p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #e6dfdf;
+}
+.booking1 span {
+  font-size: 10px;
+  color: #e3dcdc;
+}
+
+.booking-container .booking2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+}
+.booking2 p {
+  font-size: 14px;
+}
+.booking2 span{
+  font-size: 10px;
+  color: #cdc3c3;
+}
+
+.booking-container .booking3 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: transparent;
+  height: 50px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 5px;
+  gap: 15px;
+}
+.booking3 .details p {
+  font-size: 15px;
+  font-weight: 700;
+}
+.booking3 .details span {
+  font-size: 10px;
+}
+
+button {
+  height: 40px;
+  width: 50px;
+  background-color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button i {
+  font-size: 25px;
+}
+
+.star-rating {
+  display: flex;
+  margin-top: -10px;
+  font-size: 10px;
+}
+.star {
+  display: flex;
+  gap: 5px;
+}
+.button-star {
+  padding: 8px;
+  width: 30px;
+  border-radius: 7px;
+  height: 20px;
+  color: black;
+  font-weight: 800;
+  background-color: #cecbd7;
+}
+.button-star i {
+  font-size: 13px;
+  color: #1f1f01;
+}
+.star-rating p {
+  font-size: 15px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 7px;
+}
+
+.input1 {
+  margin-left: 20px;
+  margin-top: -25px;
+}
+.input1 label {
+  font-size: 12px;
+}
+
+.hotal-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 660px;
+  border-bottom: 1px solid #161601;
+  padding: 10px;
+  margin-left: 23%;
+}
+.hotal-details .happy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #161601;
+  margin-left: 10px;
+  padding-right: 10px;
+  gap: 3px;
+}
+.happy h1 {
+  font-weight: 800;
+  color: #050549;
+}
+.happy p {
+  font-size: 13px;
+  color: #050549;
+  font-weight: 700;
+}
+#happy4 {
+  border: none;
+}
+#happy4 i{
+  font-size: 30px;
+  color: black;
+
+}
+.footer-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.foot-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 3px;
+}
+.foot-details i {
+  font-size: 37px;
+  color: green;
+}
+.foot-details p {
+  font-size: 15px;
+  color: #050549;
+  font-weight: 700;
+}
+.foot-details span {
+  font-size: 12px;
+  color: #050549;
+  font-weight: 400;
+}
